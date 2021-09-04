@@ -1,0 +1,14 @@
+{
+  "name": "0.portfolio-project",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/ -o dist/css/ --recursive"
+  },
+  "author": "Pratyush",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
