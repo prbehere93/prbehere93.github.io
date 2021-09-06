@@ -4,7 +4,7 @@
   "description": "responsive portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Pratyush",
   "license": "MIT",
