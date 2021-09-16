@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 * {
     box-sizing: border-box;
@@ -47,8 +46,8 @@ header{
 }
 
 main {
-    padding: 4rem;
-    height: 100%;
+    padding: 3rem;
+    height: calc(100vh-60px); //to allow the footer to stick to the bottom
 
     .icons{
         margin-top: 1rem;
@@ -70,3 +69,53 @@ main {
         }
     }
 }
+
+//for the about page
+.about-info{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: //visual rep of the grid template 
+    "bioimage bio bio" 
+    "job1 job2 job3";
+    grid-template-columns: 1fr 1fr 1fr;
+
+    //defining the above defined template areas for each of our div classes
+    .bio-image{
+        grid-area:bioimage;
+        margin:auto;
+        border-radius: 50%;
+        border: $secondary-color 3px solid;
+    }
+
+    .bio{
+        grid-area: bio;
+        font-size: 1.5rem;
+    }
+
+    .job-1{
+        grid-area: job1;
+    }
+
+    .job-2{
+        grid-area: job2;
+    }
+
+    .job-3{
+        grid-area: job3;
+    }
+
+    .job{
+        background: lighten($primary-color,5);
+        padding: 0.5rem;
+    }
+}
+
+#main-footer{
+    text-align: center;
+    padding: 1rem;
+    background: darken($primary-color, 10);
+    color: set-text-color($primary-color);
+    height: 60px;
+}
+
+@import 'mobile'; //to run the mobile queries after the initial CSS loads
