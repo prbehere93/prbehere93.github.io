@@ -46,6 +46,7 @@ header{
 }
 
 main {
+    overflow: auto;
     padding: 3rem;
     height: calc(100vh - 60px); //to allow the footer to stick to the bottom
 
