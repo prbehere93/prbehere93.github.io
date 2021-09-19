@@ -137,6 +137,7 @@ header {
   color: gold; }
 
 main {
+  overflow: auto;
   padding: 3rem;
   height: calc(100vh - 60px); }
   main .icons {
