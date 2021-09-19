@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #291791;
+    background: black;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.6s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #311bb0;
+    background: #050505;
     transform: translate3d(0, 100%, 0);
     transition: all 0.6s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #2f1aa7;
+  background: black;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -111,7 +111,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(47, 26, 167, 0.7);
+      background: rgba(0, 0, 0, 0.5);
       z-index: -1; }
 
 h1, h2, h3 {
@@ -122,7 +122,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.1rem 1rem;
-    background: rgba(49, 27, 176, 0.5); }
+    background: rgba(5, 5, 5, 0.5); }
 
 a {
   color: white;
@@ -138,7 +138,7 @@ header {
 
 main {
   padding: 3rem;
-  height: calc(100vh-60px); }
+  height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
   main a {
@@ -171,7 +171,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #351dbd;
+    background: #0d0d0d;
     padding: 0.5rem;
     border: gold 0.2px solid; }
 
@@ -204,7 +204,7 @@ main {
   color: white; }
 
 .btn-light {
-  background: #d0c9f7;
+  background: gray;
   color: black; }
 
 .boxes {
@@ -229,7 +229,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #23137b;
+  background: black;
   color: #fff;
   height: 60px; }
 
